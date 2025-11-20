@@ -1,9 +1,6 @@
 ![Blockchain](https://img.shields.io/badge/Blockchain-Autonomy-blue)
-![AI](https://img.shields.io/badge/AI-Forecasting-green)
 ![R](https://img.shields.io/badge/R-4.4.0-blue?logo=r)
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
-![Status](https://img.shields.io/badge/Status-In_Progress-yellow)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
 # Forecast Blockchain Academy  
@@ -23,16 +20,13 @@ This repository is **work-in-progress**.
 ---
 
 
-## About the Author
+## Author
 
-I’m a Data Science and Analytics specialist (USP postgraduate) and Computer Engineer (UERJ) with a career spanning from **Pascal/C/Java roots** to **modern Machine Learning and AI**.
+This project was developed by an engineer and data scientist with a background in:
 
-My academic and professional background includes:
-
-* **Computation in general**
-* **Machine Learning**
-* **Statistical Machine Learning**
-* **Deep Learning, LLMs, and Reinforcement Learning (ongoing specialization)**
+* Postgraduate degree in **Data Science and Analytics (USP)**
+* Bachelor's degree in **Computer Engineering (UERJ)**
+* Special interest in statistical models, interpretability, and applied AI
 
 ---
 
@@ -41,3 +35,4 @@ My academic and professional background includes:
 
 - [LinkedIn](https://linkedin.com/in/celso-m-silva)  
 - Or open an [issue](https://github.com/celsomsilva/forecastathon/issues)
+
