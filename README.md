@@ -94,7 +94,7 @@ This layer is intentionally private until the competition ends.
 
 ---
 
-## Target Series (Overview)
+## Target Series
 
 ### CPIZ25 – Inflation (MoM)
 
