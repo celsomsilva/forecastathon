@@ -127,6 +127,37 @@ This layer is intentionally private until the competition ends.
 * Gamma (log link) often useful due to asymmetry and small-change clustering
 * Final specification will be documented after the season
 
+
+### BTCVOL – Short-Term Implied Volatility Contracts
+
+In addition to macroeconomic indicators, the strategy was extended to
+short-dated BTC volatility contracts (weekly expiries).
+
+These instruments require a fundamentally different treatment:
+- No macro releases
+- High-frequency price dynamics
+- Expiry-driven behavior
+
+A separate volatility-focused modeling layer was developed, intentionally
+kept private during the competition due to its sensitivity.
+
+---
+
+## Forecast Submission Strategy (Decision Layer)
+
+A key component of the framework is the separation between:
+
+- Forecast generation
+- Forecast submission
+
+Forecasts are not submitted daily by default.
+Submissions are made only when new information is detected, such as:
+- Structural regime changes
+- New macroeconomic releases
+- Material divergence between forecast and mark price
+
+This avoids overtrading and aligns with the scoring dynamics of the Forecastathon.
+
 ---
 
 ## Repository Structure (Post-Competition Release)
@@ -136,34 +167,20 @@ When the Forecastathon ends, the repository will include:
 ```
 forecastathon-modeling-framework/
   src/
-    glm_cpiz25.R
-    glm_gdpf26.R
-    glm_uerf26.R
-    glm_uerz25.R
-    preprocessing_utils.R
-    diagnostics_utils.R
+    (R code)
 
   models/
-    cpiz25_model.rds
-    gdpf26_model.rds
-    uerf26_model.rds
-    uerz25_model.rds
+    (released post-competition)	
 
   notebooks/
-    CPIZ25_analysis.ipynb
-    GDPF26_analysis.ipynb
-    UERF26_analysis.ipynb
-    UERZ25_analysis.ipynb
 
   forecasts/
-    rolling_forecasts.csv
-    forecast_vs_mark_comparison.pdf
 
   report/
-    strategy_summary.md
-    model_diagnostics.md
 
   README.md
+  
+  LICENSE
 ```
 
 ---
