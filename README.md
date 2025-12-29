@@ -1,4 +1,5 @@
-# Forecastathon – Statistical Modeling & Predictive Strategy (Research Edition)
+# Forecastathon – Statistical Modeling for On-Chain Forecast Markets (Research Edition)
+
 
 **Forecast Blockchain Academy**
 
@@ -13,6 +14,10 @@ Work in progress — this repo will expand throughout the season.
 ---
 
 ## Introduction
+
+The Autonity Forecastathon operates in an on-chain forecasting market, where predictions are continuously priced, traded, and scored under real economic incentives.
+
+Unlike offline benchmarks or static datasets, forecasts in this environment directly impact market outcomes, requiring disciplined modeling, calibration, and decision-making.
 
 This repository documents the **research, methodology, and modeling framework** I use in the **Autonity Forecastathon**, a forecasting competition covering macroeconomic indicators such as:
 
@@ -29,6 +34,30 @@ The goal here is to present:
 
 **Note:**
 No source code, formulas, or parameter details are included until the competition concludes.
+
+Participation in the Forecastathon occurred **by invitation**, following outreach from within the Clearmatics ecosystem.
+
+
+
+---
+
+## External Context
+
+
+Clearmatics is a London-based company focused on designing protocols
+and market infrastructure for decentralized and institutional
+financial systems.
+
+Since the mid-2010s, Clearmatics has been cited in institutional
+initiatives involving major global banks, particularly in efforts
+related to blockchain-based settlement and financial market
+infrastructure.
+
+References:
+
+- CoinDesk (2019) – [Top banks invest $50 million to build blockchain settlement system](https://www.coindesk.com/markets/2019/05/17/top-banks-investing-50-million-to-build-blockchain-settlement-system)
+- CoinDesk (2019) – [Barclays and Clearmatics Call on Coders to Help Blockchains Talk to Each Other](https://www.coindesk.com/markets/2019/01/17/barclays-and-clearmatics-call-on-coders-to-help-blockchains-talk-to-each-other)
+- CoinDesk (2025) – [Clearmatics' New DeFi Derivatives Let Traders Bet on Anything, but It's Not a Prediction Market](https://www.coindesk.com/business/2025/07/28/clearmatics-new-defi-derivatives-let-traders-bet-on-anything-but-it-s-not-a-prediction-market)
 
 ---
 
@@ -54,6 +83,7 @@ Instead of defaulting to ARIMA/Prophet/neural networks, the approach emphasizes:
 * Economic plausibility
 
 This keeps the model understandable and stable — qualities that matter in real forecasting, not just competitions.
+
 
 
 ### 2. Structured Lag Engineering
