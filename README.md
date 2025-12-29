@@ -24,7 +24,8 @@ This repository documents the **research, methodology, and modeling framework** 
 * **CPIZ25** – Inflation (MoM)
 * **GDPF26** – GDP (QoQ)
 * **UERF26** – Unemployment (MoM, forward)
-* **UERZ25** – Unemployment (MoM, near-term contract)**
+* **UERZ25** – Unemployment (MoM, near-term contract)
+* **BTCVOL** – Short-Term Implied Bitcoin Volatility Contracts
 
 The goal here is to present:
 
@@ -37,29 +38,8 @@ No source code, formulas, or parameter details are included until the competitio
 
 Participation in the Forecastathon occurred **by invitation**, following outreach from within the Clearmatics ecosystem.
 
-
-
 ---
 
-## External Context
-
-
-Clearmatics is a London-based company focused on designing protocols
-and market infrastructure for decentralized and institutional
-financial systems.
-
-Since the mid-2010s, Clearmatics has been cited in institutional
-initiatives involving major global banks, particularly in efforts
-related to blockchain-based settlement and financial market
-infrastructure.
-
-References:
-
-- CoinDesk (2019) – [Top banks invest $50 million to build blockchain settlement system](https://www.coindesk.com/markets/2019/05/17/top-banks-investing-50-million-to-build-blockchain-settlement-system)
-- CoinDesk (2019) – [Barclays and Clearmatics Call on Coders to Help Blockchains Talk to Each Other](https://www.coindesk.com/markets/2019/01/17/barclays-and-clearmatics-call-on-coders-to-help-blockchains-talk-to-each-other)
-- CoinDesk (2025) – [Clearmatics' New DeFi Derivatives Let Traders Bet on Anything, but It's Not a Prediction Market](https://www.coindesk.com/business/2025/07/28/clearmatics-new-defi-derivatives-let-traders-bet-on-anything-but-it-s-not-a-prediction-market)
-
----
 
 ## Project Goals
 
@@ -158,10 +138,10 @@ This layer is intentionally private until the competition ends.
 * Final specification will be documented after the season
 
 
-### BTCVOL – Short-Term Implied Volatility Contracts
+### BTCVOL – Short-Term Implied Bitcoin Volatility Contracts
 
 In addition to macroeconomic indicators, the strategy was extended to
-short-dated BTC volatility contracts (weekly expiries).
+short-dated Bitcoin volatility contracts (weekly expiries).
 
 These instruments require a fundamentally different treatment:
 - No macro releases
@@ -212,6 +192,26 @@ forecastathon-modeling-framework/
   
   LICENSE
 ```
+
+---
+
+## External Context
+
+
+Clearmatics is a London-based company focused on designing protocols
+and market infrastructure for decentralized and institutional
+financial systems.
+
+Since the mid-2010s, Clearmatics has been cited in institutional
+initiatives involving major global banks, particularly in efforts
+related to blockchain-based settlement and financial market
+infrastructure.
+
+References:
+
+- CoinDesk (2019) – [Top banks invest $50 million to build blockchain settlement system](https://www.coindesk.com/markets/2019/05/17/top-banks-investing-50-million-to-build-blockchain-settlement-system)
+- CoinDesk (2019) – [Barclays and Clearmatics Call on Coders to Help Blockchains Talk to Each Other](https://www.coindesk.com/markets/2019/01/17/barclays-and-clearmatics-call-on-coders-to-help-blockchains-talk-to-each-other)
+- CoinDesk (2025) – [Clearmatics' New DeFi Derivatives Let Traders Bet on Anything, but It's Not a Prediction Market](https://www.coindesk.com/business/2025/07/28/clearmatics-new-defi-derivatives-let-traders-bet-on-anything-but-it-s-not-a-prediction-market)
 
 ---
 
