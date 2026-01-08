@@ -5,7 +5,6 @@
 .Ruserdata
 .Rapp.history
 *.rds
-*.R
 
 # RStudio files
 *.Rproj
