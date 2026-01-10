@@ -1,4 +1,6 @@
-# Forecastathon – Statistical Modeling for On-Chain Forecast Markets (Research Edition)
+# Forecastathon – 6th Place Overall  
+## Statistical Modeling for On-Chain Forecast Markets (Research Edition)
+
 
 
 **Forecast Blockchain Academy**
@@ -12,10 +14,10 @@ A high-level overview of my modeling strategy for the [Autonity Forecastathon](h
 
 **Completed — Forecastathon Season 3**
 
-This repository documents the final state of the forecasting framework
-applied during Autonity Forecastathon Season 3.
-
-The approach finished **6th overall** in the final leaderboard.  
+This repository documents a statistically grounded forecasting framework
+used in Autonity Forecastathon Season 3, finishing **6th overall** in an open,
+on-chain forecasting competition with real market incentives.
+  
 
 see official results: [Forecastathon-Leaderboard](https://forecastathon.ai/leaderboard?table=forecast-accuracy)
 
